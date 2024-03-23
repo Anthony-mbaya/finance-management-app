@@ -75,7 +75,7 @@
     @apply w-full py-10 
    }
    .member-container{
-    @apply max-w-[1240px] mx-auto grid lg:grid-cols-2 items-center gap-3 px-32
+    @apply max-w-[1240px] mx-auto grid lg:grid-cols-2 items-center gap-3 px-5
    } 
    .member-form{
     @apply flex flex-col items-center
