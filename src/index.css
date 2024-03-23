@@ -18,7 +18,7 @@
     @apply p-4
   }
   .menu-bar{
-    @apply fixed top-0 left-0 border-r-2 w-[37%] border-transparent bg-slate-500 block md:hidden h-full transition duration-500 ease-in-out transform px-2
+    @apply fixed top-0 left-0 border-r-2 w-[30%] border-transparent bg-slate-500 block md:hidden h-full transition duration-500 ease-in-out transform px-2
   }
   .menu-list{
     @apply pt-14 
