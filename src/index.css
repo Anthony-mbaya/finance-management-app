@@ -42,7 +42,7 @@
     @apply font-bold text-4xl sm:text-6xl md:text-8xl
   }
   .text-3{
-    @apply font-bold text-base pt-2 md:text-lg pl-2 sm:text-base
+    @apply font-bold text-base pt-2 md:text-lg pl-2 sm:text-xs
   }
   .typed-content{
     @apply flex justify-items-center mx-auto
