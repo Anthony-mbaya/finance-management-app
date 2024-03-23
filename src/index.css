@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+@layer base {
+  body{
+    @apply  bg-[#003366] text-white
+  }
+  .nav-bar{
+    @apply flex justify-between items-center h-20 max-w-[1240px] mx-auto px-5
+  }
+  h1{
+    @apply text-green-400 w-full text-3xl font-bold
+  }
+  .nav-list{
+    @apply hidden md:flex
+  }
+  .nav-list > li{
+    @apply p-4
+  }
+  .menu-bar{
+    @apply fixed top-0 left-0 border-r-2 border-transparent w-[30%] bg-slate-500 block md:hidden h-full transition duration-500 ease-in-out transform
+  }
+  .menu-list{
+    @apply pt-14 
+  }
+  .menu-list > li{
+    @apply p-4 border-b-2 border-slate-400 w-32 ml-4
+  }
+  .menu-icon{
+    @apply block md:hidden
+  }
+  .aioutline{
+    @apply fixed right-20 bg-green-400  px-3 py-2 size-10 rounded-lg
+  }
+  .display{
+    @apply max-w-[800px] w-full h-screen mx-auto text-center flex flex-col gap-2 pt-44 
+  }
+  .text-1{
+    @apply font-bold text-green-400 text-2xl
+  }
+  .text-2{
+    @apply font-bold text-4xl sm:text-6xl md:text-8xl
+  }
+  .text-3{
+    @apply font-bold text-base pt-2 md:text-lg pl-2
+  }
+  .typed-content{
+    @apply flex justify-items-center mx-auto
+  }
+  .text-4{
+    @apply text-2xl font-bold text-slate-600 
+  }
+  .start-btn{
+    @apply bg-green-400 mx-auto w-fit h-fit px-3 py-2 rounded-lg shadow-md hover:bg-opacity-60 transition duration-500 ease-in-out
+  }
+  .bridges{
+    @apply bg-white rounded-md shadow-sm py-16 px-4 text-black mt-3
+  }
+  .bridge{
+    @apply max-w-[1240px] mx-auto grid md:grid-cols-2 mt-4 border-b-4 border-l-2 border-r-2 border-[#003366] px-3 py-9 rounded-lg
+  }
+  .bridge > img{
+    @apply object-scale-down h-48
+  }
+  .bridge-text{
+    @apply flex flex-col gap-y-3
+  }
+  .bridge-text > h2{
+    @apply text-xl font-extrabold leading-none 
+  }
+  .bridge-btn{
+    @apply bg-[#003366] w-fit px-3 py-2 text-white rounded-xl hover:shadow-xl hover:bg-opacity-75 transition duration-500 ease-in-out md:mx-auto
+   }
+   .member{
+    @apply w-full py-10 
+   }
+   .member-container{
+    @apply max-w-[1240px] mx-auto grid lg:grid-cols-2 items-center gap-3 px-32
+   } 
+   .member-form{
+    @apply flex flex-col items-center
+   }
+   .input{
+    @apply w-full text-black px-3 py-2 rounded-xl focus:outline-green-400 font-bold placeholder:opacity-100 my-4
+   }
+   .request-btn{
+    @apply bg-green-400 px-3 py-2 rounded-lg text-white hover:bg-green-500 hover:bg-opacity-75 transition duration-500 ease-in-out 
+   }
+   .contracts{
+    @apply w-full py-16 px-4
+   }
+   .contracts-container{
+    @apply max-w-[1240px] mx-auto grid md:grid-cols-3 gap-5 p-5 items-center
+   }
+   .contracts-details{
+    @apply bg-[#0d1e30] shadow-2xl rounded-lg hover:scale-105 duration-100 py-4 mx-auto hover:opacity-70 sm:w-[40%] lg:w-[75%] md:w-[80%] w-[50%]
+   }
+   .user-icon{
+    @apply w-24 h-24 mx-auto mt-8 border-2
+   }
+   h3{
+    @apply text-xl font-bold text-center py-3
+   }
+   .contracts-text{
+    @apply text-center
+   }
+   .cost{
+    @apply text-xl font-extrabold
+   }
+   .contract-btn{
+    @apply bg-white text-black py-2 px-6 rounded-md shadow-2xl  mt-3 hover:bg-black hover:text-white
+   }
+   .footer{
+    @apply max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-2 bg-black 
+   }
+   .footer-info-text{
+    @apply w-[60%] px-6
+   }
+   .footer-info-text > h1{
+    @apply mb-4
+   }
+   .handles-container{
+    @apply flex justify-around md:w-[75%] my-5
+   }
+   .handles{
+    @apply size-7
+   }
+   .footer-links-container{
+    @apply grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 px-6
+   }
+   .footer-list > li{
+    @apply py-2
+   }
+   .footer-links > h4{
+    @apply text-lg font-bold text-slate-600
+   }
+}
