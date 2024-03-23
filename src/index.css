@@ -18,19 +18,19 @@
     @apply p-4
   }
   .menu-bar{
-    @apply fixed top-0 left-0 border-r-2 border-transparent w-[30%] bg-slate-500 block md:hidden h-full transition duration-500 ease-in-out transform
+    @apply fixed top-0 left-0 border-r-2 w-[35%] border-transparent bg-slate-500 block md:hidden h-full transition duration-500 ease-in-out transform px-2
   }
   .menu-list{
     @apply pt-14 
   }
   .menu-list > li{
-    @apply p-4 border-b-2 border-slate-400 w-32 ml-4
+    @apply p-4 border-b-2 border-slate-400 w-full ml-4
   }
   .menu-icon{
     @apply block md:hidden
   }
   .aioutline{
-    @apply fixed right-16 top-16 z-20 bg-green-400  px-3 py-2 size-10 rounded-lg
+    @apply fixed right-10 top-10 z-20 bg-green-400  px-3 py-2 size-10 rounded-lg
   }
   .display{
     @apply max-w-[800px] w-full h-screen mx-auto text-center flex flex-col gap-2 pt-44 
