@@ -3,7 +3,7 @@
 @tailwind utilities; 
 @layer base {
   body{
-    @apply  bg-[#003366] text-red
+    @apply  bg-[#003366] text-white
   }
   .nav-bar{
     @apply flex justify-between items-center h-20 max-w-[1240px] mx-auto px-5
@@ -30,7 +30,7 @@
     @apply block md:hidden
   }
   .aioutline{
-    @apply fixed right-20 bg-green-400  px-3 py-2 size-10 rounded-lg
+    @apply fixed right-16 top-16 z-20 bg-green-400  px-3 py-2 size-10 rounded-lg
   }
   .display{
     @apply max-w-[800px] w-full h-screen mx-auto text-center flex flex-col gap-2 pt-44 
@@ -93,7 +93,7 @@
     @apply max-w-[1240px] mx-auto grid md:grid-cols-3 gap-5 p-5 items-center
    }
    .contracts-details{
-    @apply bg-[#0d1e30] shadow-2xl rounded-lg hover:scale-105 duration-100 py-4 mx-auto hover:opacity-70 sm:w-[40%] lg:w-[75%] md:w-[80%] w-[50%]
+    @apply bg-[#0d1e30] shadow-2xl rounded-lg hover:scale-105 duration-100 py-4 mx-auto hover:opacity-70 
    }
    .user-icon{
     @apply w-24 h-24 mx-auto mt-8 border-2
