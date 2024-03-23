@@ -8,7 +8,7 @@ export const Display =()=>{
             <p className='text-1'>Explore Your Company Finance Data Here!</p>
             <h2 className='text-2'>Merge Finance Data</h2>
             <div className='typed-content'>
-            <p className='text-3'>Fast, Flexible & Eligible for Small Businesses: </p>
+            <p className='text-3'>Fast, Flexible & Eligible for Small firms: </p>
             <ReactTyped className='text-3' strings={['KCB', 'Equity', 'Stanbic', 'Family']} typeSpeed={120} backSpeed={140} loop />
           
             </div>
