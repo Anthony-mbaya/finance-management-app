@@ -19,7 +19,7 @@ export const Navbar = () => {
       <div onClick={handleMenu} className="menu-icon">
         { menu ? <AiOutlineClose className="aioutline" /> : <AiOutlineMenu className="aioutline" />} 
       </div>
-      <div className={ !menu ? "menu-bar" : "hidden"}>
+      <div className={ menu ? "menu-bar" : "hidden"}>
       <h1 className="mt-8">CruxTon Ltd Finance App</h1>
         <ul className="menu-list">
           <li>Home</li>
