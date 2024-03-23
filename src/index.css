@@ -18,13 +18,13 @@
     @apply p-4
   }
   .menu-bar{
-    @apply fixed top-0 left-0 bg-slate-500 block md:hidden h-full transition duration-500 ease-in-out transform px-2
+    @apply fixed top-0 left-0 w-[40%] bg-slate-500 block md:hidden h-full transition duration-500 ease-in-out transform px-2
   }
   .menu-list{
     @apply pt-14 
   }
   .menu-list > li{
-    @apply p-4 border-b-2 border-slate-400 w-[20%] ml-3
+    @apply p-4 border-b-2 border-slate-400 ml-3
   }
   .menu-icon{
     @apply block md:hidden
