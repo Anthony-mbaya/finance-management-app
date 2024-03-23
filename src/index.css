@@ -3,7 +3,7 @@
 @tailwind utilities; 
 @layer base {
   body{
-    @apply  bg-[#003366] text-white
+    @apply  bg-[#003366] text-red
   }
   .nav-bar{
     @apply flex justify-between items-center h-20 max-w-[1240px] mx-auto px-5
