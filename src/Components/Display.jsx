@@ -10,7 +10,7 @@ export const Display =()=>{
             <div className='typed-content'>
             <p className='text-3'>Fast, Flexible & Eligible for Small Businesses: </p>
             <ReactTyped className='text-3' strings={['KCB', 'Equity', 'Stanbic', 'Family']} typeSpeed={120} backSpeed={140} loop />
-            <p className='text-3'> Bank</p>
+          
             </div>
             
             <h2 className='text-4'>Monitor Your Finace Data With Us </h2>
